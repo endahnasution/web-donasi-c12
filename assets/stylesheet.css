@@ -7,6 +7,12 @@ form, input, div {
   padding: 0;
 }
 
+
+a {
+  text-decoration: none;
+}
+
+
 body {
   font-family: "Avenir Next";
 }
@@ -26,8 +32,8 @@ body {
 }
 
 .card{
-  float:left;
-    margin: 10px 30px;
+    float:left;
+    margin: 10px 30px 50px 30px;
     background-color: rgb(255, 254, 254);
     border-radius: 5px;
     box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2);
@@ -88,3 +94,86 @@ body {
   float: right;
 }
 
+.lihat{
+  
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.see {
+  background-color: rgb(31, 89, 182);
+  padding: 10px 20px;
+}
+
+hr{
+  border: 0.05px solid #dee7ec;
+  margin:50px 0px 0px 0px;
+}
+
+ .second-content .title{
+  padding: 100px 0px 50px 0px;
+  margin:0 auto;
+  text-align: center;
+  line-height:50px;    
+}
+
+
+.second-content .card{
+  float:left;
+  margin: 10px 10px 50px 60px;
+  background-color: rgb(255, 254, 254);
+  border-radius: 5px;
+  box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  
+  
+  
+ 
+}
+
+
+.second-content img{
+  width:  350px;
+  height: 200px;
+  object-fit: cover;  
+}
+
+.second-content .text-card{
+  padding:10px ;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.left{
+  margin-left: 30px;
+  margin-bottom:100px;
+  float: left;
+}
+.left i{
+  font-size: 50px;
+}
+
+.left i:hover{
+  opacity: 1;
+}
+
+.right{
+  margin-right: 30px;
+  float:right;
+}
+
+.right i{
+  font-size: 50px;
+}
