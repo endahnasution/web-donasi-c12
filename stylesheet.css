@@ -27,7 +27,7 @@ body {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(img/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     color: #FFC312;
     text-align: center;
