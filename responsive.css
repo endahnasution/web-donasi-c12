@@ -11,7 +11,6 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
 
-
     .btn-wrapper {
         width: 100%;
     }
@@ -22,6 +21,14 @@
 
     .header-right {
         display: none;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .header-logo {
+        display: block;
     }
 
     .menu-icon {
